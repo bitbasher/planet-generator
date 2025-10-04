@@ -1,6 +1,18 @@
-this started from this archived webpage
-https://web.archive.org/web/20220617041817/http://experilous.com/1/blog/post/procedural-planet-generation
+all this started from Amit P's post on (written Sep 2010, updated Jan 2025) 
+1. http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/#source
+1. who pointed to another generator - https://github.com/Sushisource/DnDTG
+1. Amit P also offered his own tutorial on polygon map generation https://www.redblobgames.com/x/2022-voronoi-maps-tutorial/
+2. and referenced work by Andy Gainey on Experilous site (archived https://web.archive.org/web/20220617041817/http://experilous.com/1/blog/post/procedural-planet-generation )
+* pointed to MapGen2
+* and in the MG2 readme referenced an even newer version, Mapgen4 https://www.redblobgames.com/maps/mapgen4/
+* here are his blog posts https://simblob.blogspot.com/search/label/mapgen4
 
+* AP used Fortune's algorithm https://github.com/bitbasher/Javascript-Voronoi
+* described on wikipedia https://en.wikipedia.org/wiki/Fortune%27s_algorithm#External_links
+
+Amit P posting on Red Blob Games https://www.redblobgames.com/maps/mapgen2/
+said this about Mapgen2
+-----
 For the past two and a half weeks, I’ve been working on a procedural planet generator.  This weekend I finally polished it up enough to talk myself into putting it online.  You can check it out here.  (It’s heavy on the JavaScript, so I recommend Chrome.  Firefox and IE are slower, but manage.  I haven’t tried any other browser yet.  Also, I’ve never yet delved into supporting touch controls, so it’s pretty much keyboard only.  Sorry mobile users.) (The above link is for version 2, uploaded April 7th, 2015; version 1 is still accessible here.)
 Update, October 2015: Worldbuilder Version 0.2.2 has been released, inspired by this prototype. Includes flat map projections and per pixel detail!
 
