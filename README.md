@@ -14,6 +14,7 @@ and in the MG2 readme referenced an even newer version, Mapgen4 https://www.redb
   Update, October 2015: Worldbuilder Version 0.2.2 has been released, inspired by this prototype.
   Includes flat map projections and per pixel detail!
   https://web.archive.org/web/20220617041817/http://experilous.com/1/store/offer/worldbuilder
+  but alas, the link is dead
 
 Andy Gainey posting on Experilous about Planet Generator
 -----
