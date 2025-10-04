@@ -3,17 +3,24 @@ all this started from Amit P's post on (written Sep 2010, updated Jan 2025)
 1. who pointed to another generator - https://github.com/Sushisource/DnDTG
 1. Amit P also offered his own tutorial on polygon map generation https://www.redblobgames.com/x/2022-voronoi-maps-tutorial/
 2. and referenced work by Andy Gainey on Experilous site (archived https://web.archive.org/web/20220617041817/http://experilous.com/1/blog/post/procedural-planet-generation )
-* pointed to MapGen2
-* and in the MG2 readme referenced an even newer version, Mapgen4 https://www.redblobgames.com/maps/mapgen4/
-* here are his blog posts https://simblob.blogspot.com/search/label/mapgen4
+
+and in the MG2 readme referenced an even newer version, Mapgen4 https://www.redblobgames.com/maps/mapgen4/
+ here are his blog posts https://simblob.blogspot.com/search/label/mapgen4
 
 * AP used Fortune's algorithm https://github.com/bitbasher/Javascript-Voronoi
 * described on wikipedia https://en.wikipedia.org/wiki/Fortune%27s_algorithm#External_links
 
-Amit P posting on Red Blob Games https://www.redblobgames.com/maps/mapgen2/
-said this about Mapgen2
+* the following article include a message about V2
+  Update, October 2015: Worldbuilder Version 0.2.2 has been released, inspired by this prototype.
+  Includes flat map projections and per pixel detail!
+  https://web.archive.org/web/20220617041817/http://experilous.com/1/store/offer/worldbuilder
+
+Andy Gainey posting on Experilous about Planet Generator
 -----
-For the past two and a half weeks, I’ve been working on a procedural planet generator.  This weekend I finally polished it up enough to talk myself into putting it online.  You can check it out here.  (It’s heavy on the JavaScript, so I recommend Chrome.  Firefox and IE are slower, but manage.  I haven’t tried any other browser yet.  Also, I’ve never yet delved into supporting touch controls, so it’s pretty much keyboard only.  Sorry mobile users.) (The above link is for version 2, uploaded April 7th, 2015; version 1 is still accessible here.)
+For the past two and a half weeks, I’ve been working on a procedural planet generator.  This weekend I finally polished it up enough to talk myself into putting it online.  You can check it out here. (only in the Wayback archive (Oct 2015)
+https://web.archive.org/web/20221015101745/http://experilous.com/1/project/planet-generator/2015-04-07/version-2
+
+(It’s heavy on the JavaScript, so I recommend Chrome.  Firefox and IE are slower, but manage.  I haven’t tried any other browser yet.  Also, I’ve never yet delved into supporting touch controls, so it’s pretty much keyboard only.  Sorry mobile users.) (The above link is for version 2, uploaded April 7th, 2015; version 1 is still accessible here.)
 Update, October 2015: Worldbuilder Version 0.2.2 has been released, inspired by this prototype. Includes flat map projections and per pixel detail!
 
 A lot of different steps go into generating the planet, utilizing a variety of algorithms and techniques.  They’re not perfect, and some of them are in fact quite finicky, requiring a lot of cautious tweaking of parameters and behaviors.  Some of them are bad enough to make me cringe.  But they work.  At least well enough to make some pretty pictures, and some planets with enough variety that they might be a half decent foundation for some strategy mechanics.  So in case anyone might be able to glean some useful ideas from my work, allow me to delve into some of the details (and include tons of colorful pictures along the way).
