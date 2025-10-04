@@ -13,6 +13,8 @@ and in the MG2 readme referenced an even newer version, Mapgen4 https://www.redb
 * AP used Fortune's algorithm https://github.com/bitbasher/Javascript-Voronoi
 * described on wikipedia https://en.wikipedia.org/wiki/Fortune%27s_algorithm#External_links
 * he also pointed to https://www.jasondavies.com/maps/voronoi/ - a spherical voronoi solution (web page demo)
+* there is a PHd dissertation by Kenny Hong (and H Meuller) that is ref'd on the Fortune's algo page
+* another voronoi implementation on github https://github.com/silas-mohr/Voronoi
 
 * the following article include a message about V2
   Update, October 2015: Worldbuilder Version 0.2.2 has been released, inspired by this prototype.
