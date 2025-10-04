@@ -4,6 +4,9 @@ all this started from Amit P's post on (written Sep 2010, updated Jan 2025)
 1. Amit P also offered his own tutorial on polygon map generation https://www.redblobgames.com/x/2022-voronoi-maps-tutorial/
 2. and referenced work by Andy Gainey on Experilous site (archived https://web.archive.org/web/20220617041817/http://experilous.com/1/blog/post/procedural-planet-generation )
 
+someone posted a GitHub gist with a C++ hack of the original javascript of .. AP's code? or AG's?
+so i forked that gist https://gist.github.com/bitbasher/a799523caf03b701cc9e48e5df022404
+
 and in the MG2 readme referenced an even newer version, Mapgen4 https://www.redblobgames.com/maps/mapgen4/
  here are his blog posts https://simblob.blogspot.com/search/label/mapgen4
 
